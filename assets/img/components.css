@@ -1,0 +1,97 @@
+ui.button.round {
+
+    border-radius: var(--radius-xs); }
+    
+    .ui.button.square {
+    
+    border-radius: 0px;
+    
+    }
+    
+    .ui.button.size-sm { height: 80px; padding-left: 8px; padding-right: 18px; font-size: 38px; }
+    
+    .ui.button.size-lg {
+    
+    height: 94px; padding-left: 34px; padding-right: 34px;
+    
+    font-size: 33px;
+    
+    }
+    
+    .ui.button.size-md { height: 80px; padding-left: 18px; padding-right: 18px; font-size: 42px; }
+    
+    .ui.button.size-xs { height: 74px; padding-left: 34px; padding-right: 34px; font-size: 36px;}
+
+    .ui.button.fill.gray_600_02 {
+
+        background-color: var(--gray_600_02); color: var(--white_a700_01); }
+        
+        .ui.button.fill.blue_gray_100 {
+        
+        background-color: var(--blue_gray_100); color: var(--black_900);
+        
+        }
+        
+        .ui.button.fill.gray_600 {
+        
+        background-color: var(--gray_600);
+        
+        color: var(--white_a700_01);
+        
+        }
+        
+        .ui.button {
+        
+        text-align: center;
+        
+        display: flex;
+        
+        cursor: pointer;
+        
+        flex-direction: row;
+        
+        align-items: center;
+        
+        justify-content: center;
+        
+        white-space: nowrap;
+        
+        }
+
+       /* 2. Input CSS  --*/
+
+
+
+.ui.input.round {
+
+border-radius: var(--radius-sm);
+
+}
+
+.ui.input.size-xs {
+
+height: 60px;
+
+padding-left: 12px;
+
+padding-right: 12px;
+
+}
+
+.ui.input.fill.blue_gray_100_8e {
+
+background-color: var(--blue_gray_100_8e);
+
+}
+
+.ui.input {
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+cursor: text;
+
+}

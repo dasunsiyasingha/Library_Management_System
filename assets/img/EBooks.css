@@ -1,0 +1,272 @@
+e-books {
+    gap: 60px;
+    background-color: var(--white_a700_01);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+    @media only screen and (max-width: 550px) {
+    gap: 30px;
+    }
+    
+    }
+    
+    .headerheaderlog {
+    display: flex;
+    background-color: var(--blue_gray_100);
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 18px 92px;
+    
+    @media only screen and (max-width: 1440px) {
+    padding-left: 32px;
+    padding-right: 32px;
+    
+    }
+    
+    @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-left: 16px;
+        padding-right: 16px;
+        }
+        
+        }
+        
+        .headerlogo_one {
+        height: 142px;
+        margin-left: 6px;
+        width: 142px;        
+        object-fit: contain;
+
+        @media only screen and (max-width: 1440px) {
+        margin-left: 0px;
+        }
+        
+        @media only screen and (max-width: 1050px) {
+        margin-left: 0px;
+        }
+        
+        }
+        
+        .rowhome {
+        gap: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        @media only screen and (max-width: 1440px) {
+        gap: 20px;
+        }
+        
+        @media only screen and (max-width: 1050px) {
+        gap: 20px;
+        }
+        
+        }
+        .home {
+            color: var(--black_900) limportant;
+            font-size: 32px;
+            font-weight: 400;
+            }
+            
+            .login {
+            margin-top: 28px;
+            align-self: start;
+            display: flex;
+            align-items: center;
+            @media only screen and (max-width: 1050px) {
+            align-self: auto;
+            }
+            
+            }
+            
+            .lockone_one {
+            height: 42px;
+            width: 42px;
+            object-fit: cover;
+            }
+            
+            .columnhamlet {
+            margin-bottom:4px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 94px;
+            display: flex;
+            align-self: stretch;
+            flex-direction: column;
+            max-width: 1756px;
+            width: 100%;
+            
+            @media only screen and (max-width: 1440px) {      
+            gap: 94px;
+            Padding-left: 20px;
+            Padding-right: 20px;
+            }
+
+            @media only screen and (max-width: 1050px) {
+                gap: 70px;
+                padding-left: 20px;
+                padding-right: 20px;
+                }
+                
+                @media only screen and (max-width: 550px) {
+                gap: 47px;
+                }
+                
+                }
+                
+                .columnsearch {               
+                padding-left: 44px;               
+                padding-right: 44px;                
+                gap: 54px;               
+                display: flex;              
+                flex-direction: column;                
+                align-items: center;
+                
+                @media only screen and (max-width: 1050px) {               
+                padding-left: 20px;                
+                padding-right: 20px;
+                
+                }
+                
+                @media only screen and (max-width: 550px) {              
+                gap: 27px;                
+                padding-left: 16px;
+                padding-right: 16px;
+                }
+            }
+                searchbar {
+                width: 40%;
+                display: flex;
+                justify-content: center;
+
+@media only screen and (max-width: 1440px) {
+width: 100%;
+}
+
+@media only screen and (max-width: 1050px) {
+flex-direction: column;
+width: 100%;
+}
+
+}
+
+.row {
+border-top-left-radius: 34px;
+border-bottom-left-radius: 34px;
+background-color: var(--blue_gray_100);
+flex: 1;
+display: flex;
+justify-content: center;
+padding: var(--space-xs);
+
+@media only screen and (max-width: 1050px) {
+align-self: stretch;
+}
+
+}
+
+.rowsearch {
+opacity: 0.63;
+display: flex;
+padding: var(--space-xs) 10px;
+}
+
+login-1 {
+color: var(--black_900) limportant;
+font-size: 32px;
+font-weight: 400;
+    @media only screen and (max-width: 1440px) {
+    font-size: 27px;
+    }
+    
+    @media only screen and (max-width: 1050px) {
+    font-size: 26px;
+    }
+    
+    @media only screen and (max-width: 550px) {   
+    font-size: 24px; 
+    }
+    
+    }
+    
+    .rowsearchlogoon {   
+    background-color: var(--gray_600_02);    
+    width: 12%;    
+    display: flex;   
+    justify-content: center;    
+    padding: var(--space-xs);   
+    @media only screen and (max-width: 1050px) {    
+    width: 100%;
+    }
+    
+    }
+    
+    .searchlogoone {    
+    height: 50px;    
+    margin-top: 6px;    
+    width: 50px;  
+    object-fit: cover;
+    }
+    
+    image {
+    height: 272px;
+    margin-right: 10px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: var(--radius-lg);
+
+@media only screen and (max-width: 1440px) {
+height: auto;
+
+}
+
+@media only screen and (max-width: 1050px) {
+height: auto;
+margin-right: 0px;
+}
+}
+
+.ebooks {
+gap: var(--space-md);
+display: flex;
+@media only screen and (max-width: 1050px) {
+flex-direction: column;
+}
+
+}
+
+.columnhamlet-1 {
+gap: var(--space-sm);
+display: flex;
+width: 20%;
+flex-direction: column;
+align-items: center;
+
+@media only screen and (max-width: 1050px) {
+width: 100%;
+
+}
+}
+
+.hamlet_one {
+height: 444px;
+object-fit: cover;
+width: 100%;
+border-radius: var(--radius-md);
+
+@media only screen and (max-width: 1440px) {
+height: auto;
+}
+
+@media only screen and (max-width: 1050px) {
+height: auto;
+ }
+}

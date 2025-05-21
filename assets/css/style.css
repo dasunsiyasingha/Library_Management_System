@@ -1,0 +1,89 @@
+  /*----- Banner Section -----------*/
+  .banner {              
+    text-align: center; 
+    margin-top: 50px;
+  }
+  .banner img {
+    width: 100%; 
+    max-width: 1320px;
+    height: 280px;
+  }
+
+  .-bg {
+    background-color: #aeaeaf; /* Replace with your desired color */
+  }
+  .gap-3{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+   /*------Card section-----------*/
+
+  .row{
+    margin-top: 35px;
+  }
+
+  .bgcolor{
+    background-color: #70926f;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mb-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-left: 80px;
+  }
+  
+  /*--About us Image Section --*/
+  
+  .custom-rounded {
+    border-radius: 25px;
+    margin-top: 80px;
+    }
+
+
+    /*-- About Us Text section --*/
+  .small-paragraph {
+    max-width: 700px;
+    margin: 40px;
+    margin-top: 120px;
+    font-size: 18px;
+  
+        }   
+
+  /*-- Contact Us Text --*/
+  .contact-text {
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    color: #3d3b3b;
+    margin-top: 80px;
+    margin-bottom: 100px;
+      }
+
+
+  /*----- Book Details Section------*/
+  .book-image {
+    border-radius: 8px; 
+    width: 100%; 
+    max-width: 300px; 
+  }
+  .info-section h5 {
+    font-weight: bold;
+  }
+  .availability {
+    color: rgb(40, 150, 40);
+    
+  }
+  .center-section{
+      margin-top: 125px;
+      margin-left: 300px;
+      margin-bottom: 150px;
+  }
+
+  
+    
+  

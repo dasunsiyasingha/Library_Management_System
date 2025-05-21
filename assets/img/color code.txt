@@ -1,0 +1,5 @@
+#70926f logo green
+#21872d green
+#717070 gray light
+#d9d9d98e gray
+#747373 gray

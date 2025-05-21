@@ -1,0 +1,56 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/FiraSansCondensedRegular.ttf");
+    font-family: "Fira Sans Condensed";
+    font-weight: 400;
+    }
+    @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/IstokWebRegular.ttf");
+    font-family: "Istok Web";
+    font-weight: 400;
+    }
+    @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/IBMPlexSansDevanagariRegular.ttf");
+    font-family: "IBM Plex Sans Devanagari";
+    font-weight: 400;
+    }
+    @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/InterRegular.ttf");
+    font-family: "Inter";
+    font-weight: 400;
+    }
+    @font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("../public/fonts/FiraSansExtraCondensedRegular.ttf");
+    font-family: "Fira Sans Extra Condensed";
+    font-weight: 400;
+    }
+    @font-face {
+        font-display: swap;
+        font-style: normal;
+        src: url("../public/fonts/KarlaRegular.ttf");
+        font-family: "Karla";
+        font-weight: 400;
+        }
+        @font-face {
+        font-display: swap;
+        font-style: normal;
+        src: url("../public/fonts/Jersey20Regular.ttf");
+        font-family: "Jersey 20";
+        font-weight: 400;
+        }
+        @font-face {
+        font-display: swap;
+        font-style: normal;
+        src: url("../public/fonts/AksaraBaliGalangRegular.ttf");
+        font-family: "Aksara Bali Galang";
+        font-weight: 400;
+        }
