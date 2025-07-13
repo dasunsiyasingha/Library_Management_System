@@ -45,8 +45,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'siyasinghad@gmail.com'; // Your Gmail   ejgn pymz jvvp jxwm
-    $mail->Password   = 'ejgn pymz jvvp jxwm';   // App Password 
+    $mail->Username   = 'siyasinghad@gmail.com'; 
+    $mail->Password   = '----------';   // App Password 
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
